@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+
+}
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: transparent;
+    background-color: rgba(123, 128, 148, 0.433);
+}
+header.navbar{
+    height: 10vh;
+    width: 100%;
+    margin: 0 auto;
+    padding:0 50px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.logo img{
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+}
+.logo p{
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 500;
+    cursor: default;
+    padding-left: 450px;
+    color: #25219d;
+}
+a{
+    color: rgb(30, 107, 165);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    gap: 18px;
+    display: flex;
+    padding-right: 30px;
+    font-size: 18px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+}
+.main{
+    width: 10%;
+    height: 10hv;
+    
+}
+.main img{
+    display:block;
+    margin: auto;
+    height: 50%;
+    
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font:bold
+    
+}
+.content .container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    margin: auto;
+    height: 90%;
+    padding-left: 28px;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+.todo{
+    display: flex;
+    padding: 1px;
+}
+.todo_value{
+    background: transparent;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    border-bottom: 2px solid rgb(159, 123, 86);
+
+}
+.todo_checkist{
+
+}
+.todo:has(.todo_checkbox:checked){
+    color: rgb(77, 147, 180);
+    background: rgb(0,0,0,0.13);
+    text-decoration: line-through 1.5px;
+}
+.a{
+    background-color:rgb(208, 132, 186);
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+}
+.b{
+    background-color:rgb(208, 132, 186);
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+}
+.c{
+    background-color:rgb(208, 132, 186);
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+}
